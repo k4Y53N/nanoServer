@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
-from src.utils.APIs import *
+from nanoServer.utils.APIs import *
 
-cmd_dir = Path('src/utils/APIs')
+cmd_dir = Path('nanoServer/utils/APIs')
 configs_dir = Path('./configs')
 file_suffix = '*.json'
 

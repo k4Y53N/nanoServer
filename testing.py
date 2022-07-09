@@ -15,7 +15,7 @@ if gpus:
         print(e)
 
 from pathlib import Path
-from src.Detector.Detector import Detector
+from nanoServer.Detector.Detector import Detector
 # from timeit import timeit
 
 p = Path('configs/')

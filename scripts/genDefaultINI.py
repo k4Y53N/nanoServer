@@ -34,5 +34,5 @@ if __name__ == '__main__':
         'detect_server_port': 0,
         'timeout': 10
     }
-    with open('./sys.ini', 'w') as f:
+    with open('../sys.ini', 'w') as f:
         config.write(f)

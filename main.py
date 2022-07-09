@@ -1,4 +1,4 @@
-from src.Server import Server, ServerBuilder
+from nanoServer.Server import Server, ServerBuilder
 import logging as log
 
 if __name__ == '__main__':
